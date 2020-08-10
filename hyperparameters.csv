@@ -1,0 +1,105 @@
+name,classifier_name,f1_score,acc_test,recall_test,best_params
+anatomy-lb,GradientBoostingClassifier,0.782908139,0.89490244,0.765459029,"{'learning_rate': 0.01, 'n_estimators': 150}"
+anatomy-lb,AdaBoostClassifier,0.732002679,0.882563573,0.647809181,"{'base_estimator': LogisticRegression(), 'n_estimators': 50}"
+anatomy-lb,LogisticRegression,0.73840158,0.884946817,0.655870637,"{'C': 0.1, 'tol': 0.01}"
+anatomy-lb,DecisionTreeClassifier,0.201086258,0.41630468,0.296709029,{'criterion': 'entropy'}
+lb1-lb23,AdaBoostClassifier,0.747570234,0.879607191,0.681624737,"{'base_estimator': LogisticRegression(), 'n_estimators': 50}"
+lb1-lb23,LogisticRegression,0.755733612,0.881452885,0.701179766,"{'C': 1, 'tol': 0.01}"
+lb1-lb23,GradientBoostingClassifier,0.694408067,0.868490757,0.571297743,"{'learning_rate': 0.01, 'n_estimators': 150}"
+lb1-lb23,DecisionTreeClassifier,0.701635755,0.869448828,0.586920218,{'criterion': 'entropy'}
+lb-cf,LogisticRegression,0.659574468,0.738241309,0.708571429,"{'C': 0.5, 'tol': 0.01}"
+lb-cf,AdaBoostClassifier,0.659517426,0.740286299,0.702857143,"{'base_estimator': LogisticRegression(), 'n_estimators': 50}"
+lb-cf,GradientBoostingClassifier,0.650918635,0.72801636,0.708571429,"{'learning_rate': 0.1, 'n_estimators': 150}"
+lb-cf,DecisionTreeClassifier,0.650918635,0.72801636,0.708571429,{'criterion': 'gini'}
+lb-anatomy,LogisticRegression,0.10906785,0.219010561,0.058703072,"{'C': 0.5, 'tol': 0.01}"
+lb-anatomy,AdaBoostClassifier,0.104993598,0.222901612,0.055972696,"{'base_estimator': LogisticRegression(), 'n_estimators': 150}"
+lb-anatomy,GradientBoostingClassifier,0.867728788,0.80155642,0.799317406,"{'learning_rate': 0.2, 'n_estimators': 200}"
+lb-anatomy,DecisionTreeClassifier,0.954331766,0.924402446,0.96996587,{'criterion': 'gini'}
+lb3-lb12,GradientBoostingClassifier,0.710460206,0.853847399,0.897622907,"{'learning_rate': 0.01, 'n_estimators': 200}"
+lb3-lb12,AdaBoostClassifier,0.751215767,0.895100367,0.792814695,"{'base_estimator': LogisticRegression(), 'n_estimators': 150}"
+lb3-lb12,DecisionTreeClassifier,0.709766601,0.852714224,0.901539708,{'criterion': 'entropy'}
+lb3-lb12,LogisticRegression,0.71219987,0.856410533,0.889384117,"{'C': 0.1, 'tol': 0.01}"
+lb2-lb13,AdaBoostClassifier,0.789211416,0.902930227,0.698624221,"{'base_estimator': LogisticRegression(), 'n_estimators': 50}"
+lb2-lb13,LogisticRegression,0.79234785,0.902978368,0.711641681,"{'C': 0.1, 'tol': 0.01}"
+lb2-lb13,GradientBoostingClassifier,0.794170219,0.903909108,0.712690481,"{'learning_rate': 0.01, 'n_estimators': 200}"
+lb2-lb13,DecisionTreeClassifier,0.784288209,0.898918416,0.706459374,{'criterion': 'gini'}
+"['ekaw-sigkdd' 'cmt-sigkdd' 'confof-sigkdd' 'cmt-iasted'
+ 'conference-iasted' 'confof-iasted' 'edas-ekaw' 'ekaw-iasted'
+ 'conference-confof' 'confof-ekaw' 'edas-sigkdd' 'conference-sigkdd'
+ 'cmt-confof' 'confof-edas' 'cmt-edas' 'edas-iasted' 'conference-edas'
+ 'conference-ekaw']",AdaBoostClassifier,0.707692308,0.793478261,0.621621622,"{'base_estimator': LogisticRegression(), 'n_estimators': 100}"
+"['ekaw-sigkdd' 'cmt-sigkdd' 'confof-sigkdd' 'cmt-iasted'
+ 'conference-iasted' 'confof-iasted' 'edas-ekaw' 'ekaw-iasted'
+ 'conference-confof' 'confof-ekaw' 'edas-sigkdd' 'conference-sigkdd'
+ 'cmt-confof' 'confof-edas' 'cmt-edas' 'edas-iasted' 'conference-edas'
+ 'conference-ekaw']",LogisticRegression,0.707692308,0.793478261,0.621621622,"{'C': 10, 'tol': 0.01}"
+"['ekaw-sigkdd' 'cmt-sigkdd' 'confof-sigkdd' 'cmt-iasted'
+ 'conference-iasted' 'confof-iasted' 'edas-ekaw' 'ekaw-iasted'
+ 'conference-confof' 'confof-ekaw' 'edas-sigkdd' 'conference-sigkdd'
+ 'cmt-confof' 'confof-edas' 'cmt-edas' 'edas-iasted' 'conference-edas'
+ 'conference-ekaw']",GradientBoostingClassifier,0.735294118,0.804347826,0.675675676,"{'learning_rate': 0.1, 'n_estimators': 150}"
+"['ekaw-sigkdd' 'cmt-sigkdd' 'confof-sigkdd' 'cmt-iasted'
+ 'conference-iasted' 'confof-iasted' 'edas-ekaw' 'ekaw-iasted'
+ 'conference-confof' 'confof-ekaw' 'edas-sigkdd' 'conference-sigkdd'
+ 'cmt-confof' 'confof-edas' 'cmt-edas' 'edas-iasted' 'conference-edas'
+ 'conference-ekaw']",DecisionTreeClassifier,0.71641791,0.793478261,0.648648649,{'criterion': 'gini'}
+"['edas-iasted' 'conference-ekaw' 'cmt-ekaw' 'confof-edas'
+ 'conference-sigkdd' 'edas-ekaw' 'cmt-confof' 'ekaw-iasted' 'cmt-sigkdd'
+ 'ekaw-sigkdd' 'cmt-edas' 'cmt-conference' 'confof-ekaw' 'cmt-iasted'
+ 'conference-iasted' 'confof-sigkdd' 'conference-edas' 'confof-iasted']",LogisticRegression,0.677966102,0.765432099,0.769230769,"{'C': 0.5, 'tol': 0.01}"
+"['edas-iasted' 'conference-ekaw' 'cmt-ekaw' 'confof-edas'
+ 'conference-sigkdd' 'edas-ekaw' 'cmt-confof' 'ekaw-iasted' 'cmt-sigkdd'
+ 'ekaw-sigkdd' 'cmt-edas' 'cmt-conference' 'confof-ekaw' 'cmt-iasted'
+ 'conference-iasted' 'confof-sigkdd' 'conference-edas' 'confof-iasted']",AdaBoostClassifier,0.68852459,0.765432099,0.807692308,"{'base_estimator': LogisticRegression(), 'n_estimators': 150}"
+"['edas-iasted' 'conference-ekaw' 'cmt-ekaw' 'confof-edas'
+ 'conference-sigkdd' 'edas-ekaw' 'cmt-confof' 'ekaw-iasted' 'cmt-sigkdd'
+ 'ekaw-sigkdd' 'cmt-edas' 'cmt-conference' 'confof-ekaw' 'cmt-iasted'
+ 'conference-iasted' 'confof-sigkdd' 'conference-edas' 'confof-iasted']",GradientBoostingClassifier,0.677419355,0.75308642,0.807692308,"{'learning_rate': 0.1, 'n_estimators': 50}"
+"['edas-iasted' 'conference-ekaw' 'cmt-ekaw' 'confof-edas'
+ 'conference-sigkdd' 'edas-ekaw' 'cmt-confof' 'ekaw-iasted' 'cmt-sigkdd'
+ 'ekaw-sigkdd' 'cmt-edas' 'cmt-conference' 'confof-ekaw' 'cmt-iasted'
+ 'conference-iasted' 'confof-sigkdd' 'conference-edas' 'confof-iasted']",DecisionTreeClassifier,0.633333333,0.728395062,0.730769231,{'criterion': 'gini'}
+"['cmt-edas' 'conference-iasted' 'conference-edas' 'ekaw-iasted'
+ 'confof-ekaw' 'cmt-conference' 'conference-sigkdd' 'iasted-sigkdd'
+ 'cmt-sigkdd' 'cmt-iasted' 'edas-ekaw' 'confof-iasted' 'conference-confof'
+ 'edas-iasted' 'edas-sigkdd' 'confof-sigkdd' 'cmt-confof'
+ 'conference-ekaw']",LogisticRegression,0.634146341,0.769230769,0.764705882,"{'C': 10, 'tol': 0.01}"
+"['cmt-edas' 'conference-iasted' 'conference-edas' 'ekaw-iasted'
+ 'confof-ekaw' 'cmt-conference' 'conference-sigkdd' 'iasted-sigkdd'
+ 'cmt-sigkdd' 'cmt-iasted' 'edas-ekaw' 'confof-iasted' 'conference-confof'
+ 'edas-iasted' 'edas-sigkdd' 'confof-sigkdd' 'cmt-confof'
+ 'conference-ekaw']",AdaBoostClassifier,0.634146341,0.769230769,0.764705882,"{'base_estimator': LogisticRegression(), 'n_estimators': 150}"
+"['cmt-edas' 'conference-iasted' 'conference-edas' 'ekaw-iasted'
+ 'confof-ekaw' 'cmt-conference' 'conference-sigkdd' 'iasted-sigkdd'
+ 'cmt-sigkdd' 'cmt-iasted' 'edas-ekaw' 'confof-iasted' 'conference-confof'
+ 'edas-iasted' 'edas-sigkdd' 'confof-sigkdd' 'cmt-confof'
+ 'conference-ekaw']",GradientBoostingClassifier,0.577777778,0.707692308,0.764705882,"{'learning_rate': 0.1, 'n_estimators': 50}"
+"['cmt-edas' 'conference-iasted' 'conference-edas' 'ekaw-iasted'
+ 'confof-ekaw' 'cmt-conference' 'conference-sigkdd' 'iasted-sigkdd'
+ 'cmt-sigkdd' 'cmt-iasted' 'edas-ekaw' 'confof-iasted' 'conference-confof'
+ 'edas-iasted' 'edas-sigkdd' 'confof-sigkdd' 'cmt-confof'
+ 'conference-ekaw']",DecisionTreeClassifier,0.577777778,0.707692308,0.764705882,{'criterion': 'entropy'}
+cf-lb,LogisticRegression,0.727156037,0.880215549,0.644726859,"{'C': 10, 'tol': 0.01}"
+cf-lb,DecisionTreeClassifier,0.728152485,0.880614713,0.645817527,{'criterion': 'gini'}
+cf-lb,AdaBoostClassifier,0.761806558,0.891521285,0.700682853,"{'base_estimator': LogisticRegression(), 'n_estimators': 50}"
+cf-lb,GradientBoostingClassifier,0.761715627,0.891533025,0.70025607,"{'learning_rate': 0.01, 'n_estimators': 150}"
+anatomycv,GradientBoostingClassifier,0.945301432,0.89490244,0.765459029,"{'learning_rate': 0.01, 'n_estimators': 150}"
+anatomycv,AdaBoostClassifier,0.944625756,0.882563573,0.647809181,"{'base_estimator': LogisticRegression(), 'n_estimators': 50}"
+anatomycv,LogisticRegression,0.943945484,0.884946817,0.655870637,"{'C': 0.1, 'tol': 0.01}"
+anatomycv,DecisionTreeClassifier,0.936665749,0.41630468,0.296709029,{'criterion': 'entropy'}
+lb3cv,GradientBoostingClassifier,0.787786015,0.853847399,0.897622907,"{'learning_rate': 0.01, 'n_estimators': 200}"
+lb3cv,AdaBoostClassifier,0.775279004,0.895100367,0.792814695,"{'base_estimator': LogisticRegression(), 'n_estimators': 150}"
+lb3cv,DecisionTreeClassifier,0.772283851,0.852714224,0.901539708,{'criterion': 'entropy'}
+lb3cv,LogisticRegression,0.764341995,0.856410533,0.889384117,"{'C': 0.1, 'tol': 0.01}"
+lb2cv,AdaBoostClassifier,0.648588972,0.902930227,0.698624221,"{'base_estimator': LogisticRegression(), 'n_estimators': 50}"
+lb2cv,LogisticRegression,0.606821975,0.902978368,0.711641681,"{'C': 0.1, 'tol': 0.01}"
+lb2cv,GradientBoostingClassifier,0.580983782,0.903909108,0.712690481,"{'learning_rate': 0.01, 'n_estimators': 200}"
+lb2cv,DecisionTreeClassifier,0.574633987,0.898918416,0.706459374,{'criterion': 'gini'}
+lb1cv,AdaBoostClassifier,0.851707876,0.879607191,0.681624737,"{'base_estimator': LogisticRegression(), 'n_estimators': 50}"
+lb1cv,LogisticRegression,0.848973801,0.881452885,0.701179766,"{'C': 1, 'tol': 0.01}"
+lb1cv,GradientBoostingClassifier,0.845738546,0.868490757,0.571297743,"{'learning_rate': 0.01, 'n_estimators': 150}"
+lb1cv,DecisionTreeClassifier,0.795856293,0.869448828,0.586920218,{'criterion': 'entropy'}
+cf,LogisticRegression,0.707967043,0.8,0.735294118,"{'C': 10, 'tol': 0.01}"
+cf,AdaBoostClassifier,0.696386408,0.8,0.764705882,"{'base_estimator': LogisticRegression(), 'n_estimators': 50}"
+cf,GradientBoostingClassifier,0.689332637,0.81,0.794117647,"{'learning_rate': 0.01, 'n_estimators': 200}"
+cf,DecisionTreeClassifier,0.629696993,0.79,0.647058824,{'criterion': 'gini'}
