@@ -1,6 +1,8 @@
 # ML-For-Ontology-Matching
 
 We present a preliminary investigation that focuses on the generalization of machine learning models trained on the output alignments of multiple systems for a task where a reference alignment is available to other alignment tasks.
+This [work](http://www.di.fc.ul.pt/~catiapesquita/papers/lima-ref-alignments-om2020.pdf) was presented at the [Ontology Matching Workshop](http://om2020.ontologymatching.org/) co-located with [ISWC2020](http://iswc2020.semanticweb.org/).
+
 
 ## Data
 The alignments produced by the ontology matching tools that participated in the Anatomy, Large BioMed and Conference tracks of OAEI 2019 were used as datasources.
