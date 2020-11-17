@@ -15,7 +15,7 @@ These data are available for download here:
  - The full table of f1-score results can be found in the results-table.xlsx file.
  - Information on hyperparameters, accuracy and precision can be found in the hyperparameter.csv file.
  
- ##How to cite
+ ## How to cite
  
 Beatriz Lima, Ruben Branco, João Castanheira, Gustavo Fonseca, & Catia Pesquita (2020). Learning reference alignments for ontology matching within and across domains. In Ontology Matching Workshop co-located with International Semantic Web Conference.
  
